@@ -46,7 +46,7 @@ I estimate at least 4 hours more to finish.
 
 ## Data, state and events management
 
-The project is using Redux as it shuld.
+The project is using Redux as it should.
 The data is being moved respecting the inmutability rules and best practices.
 
 Created multiple stores and the reducers handle all events.

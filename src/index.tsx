@@ -1,12 +1,38 @@
+import './index.css';
+import 'fontsource-roboto';
+
+import App from './Components/App/App';
+import CssBaseline from '@material-ui/core/CssBaseline';
+import { PersistGate } from 'redux-persist/lib/integration/react'
+import { Provider } from 'react-redux';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import { Router } from 'react-router';
+import { ThemeProvider } from '@material-ui/core/styles';
+import { configureStore } from './Store/store';
+import { createBrowserHistory } from "history";
+import { persistStore } from 'redux-persist'
 import reportWebVitals from './reportWebVitals';
+import theme from './theme';
+
+const history = createBrowserHistory();
+const store = configureStore()
+const persistor = persistStore(store)
+
+const loading = <div>Loading...</div>;
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <Router history={history}>
+        <Provider store={store}>
+          <PersistGate loading={loading} persistor={persistor}>
+            <App />
+          </PersistGate>
+        </Provider>
+      </Router>
+    </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

@@ -1,46 +1,64 @@
-# Getting Started with Create React App
+# Weolcome to this React test project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was made by Eduardo Oviedo and took arround 9 hours.
 
-## Available Scripts
+## To run the project
 
+First clone the repo.
 In the project directory, you can run:
 
+### `npm install`
 ### `npm start`
 
-Runs the app in the development mode.\
+This will run the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Completition
 
-### `npm test`
+## It works!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The project is almost complete. It's missing the summary and submit screens.
+Can be done with more time.
 
-### `npm run build`
+## Clean and clear
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The project was made with TypeScript and a lot of best practices are included.
+Please check the **types.ts** files.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Organization
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+The project is organized by components, and each component with his **Async** and **State** folders.
+You will find a Store and Types folder in the root, those are for general purpose, but each component comes with his own **actions.ts** **reducers.ts** and **types.ts** files.
 
-### `npm run eject`
+### src organization
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+![src](/images/src.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Components organization
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![src](/images/component.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Planning
 
-## Learn More
+Started the project by making questions, drawing ideas and exploring options with the technologies.
+Decided to start with the UI, then moving to Redux to finally spend some time improving functionalties.
+I estimate at least 4 hours more to finish.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Data, state and events management
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The project is using Redux as it shuld.
+The data is being moved respecting the inmutability rules and best practices.
+
+Created multiple stores and the reducers handle all events.
+
+**_Important:_** The data is persistent: Input some data, then reload the Web Browser, the data remains.
+
+## Look
+
+It looks great.
+I decided to experiment with neumorphism to show my habilities with design and styling.
+
+## Contact
+
+Feel free to contact me for any question.
+<eduardo.oviedo@gmailcom>

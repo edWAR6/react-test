@@ -1,0 +1,54 @@
+[
+  {
+    "type": "Cardiovascular",
+    "condition": "High blood pressure"
+  },
+  {
+    "type": "Cardiovascular",
+    "condition": "Cardiac Arrest"
+  },
+  {
+    "type": "Cardiovascular",
+    "condition": "Arrhythmia"
+  },
+  {
+    "type": "Cardiovascular",
+    "condition": "Coronary heart disease"
+  },
+  {
+    "type": "Gastrointestinal",
+    "condition": "IBS"
+  },
+  {
+    "type": "Gastrointestinal",
+    "condition": "Crohn's Disease"
+  },
+  {
+    "type": "Gastrointestinal",
+    "condition": "Gallstones"
+  },
+  {
+    "type": "Psychological",
+    "condition": "Depression"
+  },
+  {
+    "type": "Psychological",
+    "condition": "Anxiety"
+  },
+  {
+    "type": "Psychological",
+    "condition": "Stress"
+  },
+  {
+    "type": "Psychological",
+    "condition": "Insomnia"
+  },
+  {
+    "type": "Other",
+    "condition": "Cancer"
+  },
+  {
+    "type": "Other",
+    "condition": "Diabetes"
+  }
+]
